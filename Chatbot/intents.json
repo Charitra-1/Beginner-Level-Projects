@@ -1,0 +1,144 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can Answer all the quires you have about our college"]
+        },
+        {"tag": "about",
+         "patterns": ["Can you tell about BMSIT&M?", "Brief me about BMSIT&M", "About BMSIT&M" ],
+         "responses": ["BMSIT&M, an Institution with a class of its own, is one of the most sought after institutes for high quality engineering education in the state.\n\n It is a well established private engineering college in bangalore recognized by the AICTE, Government of India and is affiliated to the Visvesvaraya Technological University (VTU), Belagavi, Karnataka, India. \n\nVisit \"https://bmsit.ac.in/administration?of=1\" to know more"]
+        },
+        {"tag": "principal",
+         "patterns": ["Who is the principal?", "principal of BMSIT&M" ],
+         "responses": ["Dr. Mohan Babu G N\nPrincipal, BMSIT&M"]
+        },
+        {"tag": "vice_principal",
+         "patterns": ["who is the vice principal of BMSIT&M?", "Vice principal"],
+         "responses": ["Dr. H K Govindaraju\nVice Principal\nProfessor, Department of Mechanical Engineering"]
+        },
+        {"tag": "dean",
+         "patterns": ["Deans of BMSIT&M", "deans", "Who are the deans of BMSIT&M"],
+         "responses": ["Dr. Anil G N\nDean (Academics)\nProfessor, Department of Computer Science and Engineering\n\nDr. C S Mala\nDean (Students Welfare)\nProfessor, Department of Electronics and Communication Engineering\n\nDr. Seema Singh\nDean (External Relations)\nProfessor, Department of Electronics and Telecommunication Engineering"]
+        },
+        {"tag": "department_heads",
+         "patterns": ["HODs of all departments?", "HODs", "Department Heads", "Head of the departments list"],
+         "responses": ["Dr. K M Sathish Kumar\nHead, Department of Mechanical Engineering\n\nDr. Jayadeva G S\nHead, Department of Electronics and Communication Engineering\n\nDr. Bhuvaneshwari C M\nHead, Department of Computer Science and Engineering\n\nDr. Narapareddy Ramarao\nHead, Department of Electrical and Electronics Engineering\n\nDr. Raju Hazare\nHead, Department of Electronics and Telecommunication Engineering\n\nDr. Bharathi M A\nHead, Department of Artificial Intelligence & Machine Learning\n\nDr. Pushpa S K\nHead, Department of Information Science and Engineering\n\nDr. Rajakumara H N\nHead, Department of Civil Engineering\n\nDr. P Ganesh\nHead, Department of Master of Computer Applications\n\nDr. Karabi Sikdar\nHead, Department of Mathematics\n\nDr. R Lokesh\nHead, Department of Physics\n\nDr. Ramakrishnappa T\nHead, Department of Chemistry"]
+        },
+        {"tag": "section_heads",
+         "patterns": ["section heads", "heads of different sections"],
+         "responses": ["Dr. P Ganesh\nPlacement Officer\n\nDr. Arun Kumar B R\nChief Warden\n\nMr. Gopalkrishna\nLibrarian\n\nMr. Mallikarjun Patil\nHead, Physical Education"]
+        },
+        {"tag": "office_administration",
+         "patterns": ["administration", "administration office"],
+         "responses": ["Mr. Devendra Kumar S\nAdministrative Officer\n\nMr. G H Vasappa\nRegistrar"]
+        },
+        {"tag": "Students_population",
+         "patterns": ["number students", "students population"],
+         "responses": ["3250 Undergraduate Students"]
+        },
+        {"tag": "faculty_and_staff_population",
+         "patterns": ["faculty and staff", "number of faculty and staff"],
+         "responses": ["290 Faculty & Staff"]
+       },
+        {"tag": "address",
+         "patterns": ["where is BMSIT&M", "Address of BMSIT&M", "Location"],
+         "responses": ["BMS Institute of Technology and Management,\nDoddaballapur Main Road,\nAvalahalli, Yelahanka,\nBengaluru - 560064."]
+        },
+        {"tag": "contact",
+         "patterns": ["contact details", "How to contact BMSIT&M?"],
+         "responses": ["Contact : 080-29521171\n080-68730444\n\nEmail : principal@bmsit.in"]
+        },
+        {"tag": "departments",
+         "patterns": ["list of departments", "departments", "branches available", "branches at BMSIT&M"],
+         "responses": ["AI ML\nChemistry\nCivil Engineering\nComputer Science Engineering\nElectrical and Electronics Engineering\nElectronics and Communication Engineering\nElectronics and Telecommunication Engineering\nInformation Science Engineering\nMCA\nMathematics\nMechanical Engineering\nPhysics"]
+        },
+        {"tag": "about_aiml",
+         "patterns": ["About AI ML", "AI ML department"],
+         "responses": ["Course Details\nCourse Duration : 4 Years\nIntake : 60\nNo. of Faculty : 4\nDoctorates : 4\nPh.D Pursuing : -\nTechnical Staff : 2\nVisit \"https://bmsit.ac.in/dept/artificial-intelligence-and-machine-learning\" to know more"]
+        },
+        {"tag": "aiml_faculty",
+         "patterns": ["AI ML Faculty list","AIML faculty"],
+         "responses": ["Dr. Bharathi Malakreddy A\nB.E, M.Tech, PhD\nProfessor and HOD\n\nDr. Anupama H S\nB.E, M.Tech, PhD\nAssociate Professor\n\nDr. Vishwa Kiran S\nB.E, M.Tech, Ph.D, PhD\nAssociate Professor\n\nDr. Santhi Natarajan\nBTech, MS, PhD\nHonarary Faculty"]
+        },
+        {"tag": "about_civil",
+         "patterns": ["About civil department", "civilL department"],
+         "responses": ["Course Details\nCourse Duration : 4 Years\nIntake : 60\nNo. of Faculty : 11\nDoctorates : 6\nPh.D Pursuing : 5\nTechnical Staff : 5\nVisit \"https://bmsit.ac.in/dept/civil-engineering\" to know more"]
+        },
+        {"tag": "about_cs",
+         "patterns": ["About cs department", "cs department","Computer Science department"],
+         "responses": ["Course Details\nCourse Duration : 4 Years\nIntake : 180\nNo. of Faculty : 34\nDoctorates : 16\nPh.D Pursuing : 18\nTechnical Staff : 6"]
+        },
+        {"tag": "cs_faculty",
+         "patterns": ["cs Faculty list","cs faculty", "Compter Science faculty"],
+         "responses": ["Dr. Bhuvaneshwari C M\n, ,\nProfessor and HOD\n\nDr. Anil G.N\nB.E, M.Tech, D.Sc,\nProfessor and Dean (Academics)\n\nDr. Thippeswamy G\nB.E, ME, PhD\nProfessor\n\nDr. Arunkumar B R\nBSc, MCA, M.Phil(CS),MTech(CSE),PGDIPR-NLSIU, PhD\nProfessor\n\nDr. HemaMalini B H\nB.E, M.Tech,, PhD\nAssociate Professor and HoD\n\nMrs. Bharathi.R\nB.E, M.Tech, (Ph.D),\nAssociate Professor\n\nDr. Usha B A\nBE-CSE, , MTech-CSE, , PhD\nAssociate Professor\n\nDr. Mahesh G\nB.E, M.Tech, PhD\nAssociate Professor\n\nDr. Anjan Krishnamurthy\nB.E, M.Tech, PhD\nAssociate Professor and PG Coordinator\n\nDr. Sunanda Dixit\nB.E, MTech, PhD\nAssociate Professor\n\nDr. Satish Kumar .T\nB.E, ME, PhD\nAssociate Professor\n\nMrs. Vishakha Yadav\nB.E, MBA, MSc(Engg. by Research),(Ph.D),\nAssistant Professor\n\nMr. Muneshwara M S\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMr. Anand.R\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMrs. G.Y.Durga Devi\nB.Tech, M.Tech,\nAssistant Professor\n\nMrs. Shruthi.J\nB.E, M Tech, (PhD) ,\nAssistant Professor\n\nMr. Jagadish.P\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMrs. Durga Bhavani A\nB.Tech, M.Tech,\nAssistant Professor\n\nMr. Rajesh N V\nB.E, M.Tech,\nAssistant Professor\n\nMrs. Chethana C\nB.E, MTech,\nAssistant Professor\n\nMs. Ambika G.N\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMrs. Vidya Rajesh Pai\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMrs. Ashwini N\nB.E, M Tech, (PhD),\nAssistant Professor\n\nMrs. Mari kirthima\nB.E, ME, (Ph.D),\nAssistant Professor\n\nDr. Radhika K R\nB.E, M.Tech, Ph.D,\nAssistant Professor\n\nMr. Guruprasad S\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMrs. Srivani P\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMr. Ravi Kumar B N\nB.E, M.Tech, (Ph.D),\nAssistant Professor\n\nMr. Shankar R\nB.E, ME, (Ph.D),\nAssistant Professor\n\nDr. Arunakumari B. N.\nB.E, MTech, PhD\nAssistant Professor\n\nDr. Manoj H M\nB.E, MTech,, PhD\nAssistant Professor\n\nDr. Lakshmi B N\nB.E, MTech, PhD\nAssistant Professor\n\nDr. Dhanalakshmi\n, ,\nAssistant Professor\n\nDr. Archana R A\n, ,\nAssistant Professor"]
+        },
+        {"tag": "timings",
+         "patterns": ["College timings", "college working hours", "timings"],
+         "responses": ["Monday - Friday: 8:30 AM to 4:30 PM\nSaturday: 8:30 AM to 1:00 PM\n Sunday: Holiday"]
+        },
+        {"tag": "about_ece",
+         "patterns": ["About EC department", "about Electronicsand Communication department", "ec department", "Electronics and Communication department"],
+         "responses": ["Course Details\nCourse Duration : 4 Years\nIntake : 180\nNo. of Faculty : 28\nDoctorates : 11\nPh.D Pursuing : 17\nTechnical Staff : 7"]
+        },
+        {"tag": "ece_faculty",
+         "patterns": ["ec faculty list", "Electronicsand Communication faculty"],
+         "responses": ["Dr. Jayadeva G S\nB.E (E&C), NMAMIT Nitte, M.Tech ( DEAC), KREC (Present NITK) Surathkal, Ph.D (IIT Madras), PhD\nProfessor and HoD\n\nDr. M C Hanumantharaju\nB. E,, M. Tech,, PhD\nProfessor\n\nDr. Ambika R\nBE , ME, PhD\nProfessor\n\nDr. C. S. Mala\nB.E, M.Tech, PhD\nProfessor & Dean (Students' Welfare )\n\nDr. A. Shobha Rani\nB.E, M.Tech, PhD\nAssociate Professor\n\nMr. Saneesh Cleatus Thundiyil\nAMIE, M Tech, (PhD),\nAssociate Professor\n\nDr. Surekha R.Gondkar\nB.E, M.E. , PhD\nAssociate Professor\n\nDr. Vijayalakshmi G V\nB.E, M.Tech, PhD\nAssociate Professor\n\nDr. Anil Kumar D\nB.E, M Tech, PhD,\nAssociate Professor\n\nMrs. Mamatha K R\nB.E, MTech, (Ph.D),\nAssistant Professor\n\nDr. Rashmi N\nB.E, M Tech, PhD,\nAssistant Professor\n\nMr. Jagannatha K B\nB E, M Tech, (PhD),\nAssistant Professor\n\nMrs. Shashikala.J\nB.E, M Tech, (Ph.D),\nAssistant Professor\n\nMrs. Chandra Prabha R\nB E, M Tech (Ph.D),\nAssistant Professor\n\nMr. Laksmisagar H S\nBE, , M. Tech, (Ph.D).,\nAssistant Professor\n\nMrs. Asha G Hagargund\nB.E, M Tech (Ph.D),\nAssistant Professor\n\nMrs. Sabina Rahaman\nB.E, M.Tech(PhD),\nAssistant Professor\n\nMr. Shivarudraiah B\nB.E, M. Tech (Ph.D),\nAssistant Professor\n\nMr. Suryakanth B\nB.E, M.Tech (Ph.D),\nAssistant Professor\n\nMr. Thyagaraj Tanjavur\nB.E, MTech MBA (PhD),\nAssistant Professor\n\nMrs. Shilpa Hiremath\nB.E, MTech (PhD),\nAssistant Professor\n\nMrs. Vinutha \nB.E, MTech (PhD),\nAssistant Professor\n\nDr. Deepa N. Reddy\nBE.,, M.Tech.,, PhD\nAssistant Professor\n\nMr. Ravindra V. Asundi\nB.E, ME (PhD),\nAssistant Professor\n\nDr. Dankan V Gowda\nB.E, M.Tech, PhD\nAssistant Professor\n\nDr. Robin Singla\nB.Tech., M.Tech. (Ph.D),\nAssistant Professor"]
+        },
+        {"tag": "mentorship",
+         "patterns": ["about mentorship"],
+         "responses": ["In short, Mentorship provides the parents a single window source of information about their ward and expects parents to contact mentors for any additional information.\n\nVisit \"https://bmsit.ac.in/mentorship\" to know more!"]
+        },
+        {"tag": "sports",
+         "patterns": ["Sport facilities, sports"],
+         "responses": ["Outdoor Facilities\nBasketball Court\nVolleyball Court\nThrowball Court\nTennis Court\nBall Badminton\nKho-kho Court\nKabaddi Court\nCricket Nets\nFootball, Handball, Hockey (Multipurpose) Ground\nSoftball\n\nIndoor Facilities\nCarrom\nChess\nTable Tennis\nBadminton\nBoxing\nYoga\n\nGym Facilities\n10 Station Multi Gym consists of: i) Leg press, ii) Lat-pull, iii) Inner thigh, iv) Leg extensor & Leg curl bench, v) Bench press,vi) Seated rowing, vii) Peck deck, viii) Pull up bar, ix) Abdominal bench (adjustable) & x) Parallel bar\nUp Right Bike\nSmith Machine With Incline & Decline Bench\nWeight Lifting Set With 175 Kgs. wt.\nOlympic Bench With Incline & Decline Press\nDumbbells (total 199 kg)\nPlates (total 200 kg)\nBarbell Bars (Rods)\nDumbbells and Barbells Rack\nFlat bench\nThree level Abdominal Boards\nAb Crunch\nTwisters - sitting & standing"]
+        },
+        {"tag": "hostel",
+         "patterns": ["hostel Facilities", "HOSTEL Information"],
+         "responses": ["Barrier Free Environment\nLift facility\nRoom ambience\nDining Hall\nCleaning Machine\nWashing Machine\nAmbulance\nMedical Room\nGym\nTable Tennis\nSolar water heaters\nHot water dispensor\nLight house dining hall\nMedical room\nReading room\nRO System\nRefrigerator\nCold Storage\nIdly steamer\nFace Recognition Attendance System"]
+        },
+        {"tag": "clubs_associations",
+         "patterns": ["list of clubs", "Committees", "clubs", "cells"],
+         "responses": ["Statutory Committees\nAICTE Activity Point Program\nAnti-ragging Committee\nCollege Internal Complaint Committee (CICC)\nDisability Resource Cell\nEk Bharath Shresta Bharath Committee\nFirst year Induction Program Committee\nGender Championship Cell\nGrievance Redressal Cell\nSC/ST Cell\nUnnat Bharath Abhiyan\nWomen Empowerment Cell\nYouth Red Cross Wing\nSocial Entrepreneurship, Swachhta & Rural Engagement Cell\n\n\nProfessional Clubs\nComputer Society of India\nRobotics Club\nFluid Power Society of India\nInstitute of Electrical and Electronics Engineering (IEEE)\nInstitute of Electronics and Telecommunication Engineering (IETE)\nInternational Society of Automation (ISA)\nIndian Society for Technical Education (ISTE)\nSociety of Automotive Engineers\n\n\nInstitutional Level Clubs\nKSCST Projects Cell\nAero Club\nE-Yantra\nAkshay Urja Club\nCivil Defence\nCultural Club\nEco Club\nNational Cadet Corps (NCC)\nNational Service Scheme (NSS)\nPhotography Club\nQuiz Club\nRotaract Club\nPublic Relations & Media Cell"]
+        },
+        {"tag": "placement_training-cell",
+         "patterns": ["Contact placement and training cell"],
+         "responses": ["Contact\nPlacement Officer : Dr. P Ganesh\nDeputy Placement Officer : Mrs. Ambika R Subhash\nAssistant Placement Officer : Mr. Raghunandan\n\nEmail address : placement@bmsit.in , bmsit.placements@gmail.com\nContact Number(Mob) : +91 - 9901213213 / 9148735707"]
+        },
+        {"tag": "placements",
+         "patterns": ["About Placement", "placement statistics"],
+         "responses": ["To know about placement, visit \"https://bmsit.ac.in/training-and-placement\""]
+        },
+        {"tag": "transport",
+         "patterns": ["Transportation facilities", "bus facility", "bus routes"],
+         "responses": ["Visit this document to know about TransportationFacilities: \"https://bmsit.ac.in/public/assets/pdf/importantinfo/BMSIT%20BUS%20Routes%202020-21.pdf\""]
+        },
+        {"tag": "library",
+         "patterns": ["Library timings", "Libraryworking hours"],
+         "responses": ["Library Timings\nCirculation Section\nMon-Fri: 8:30am to 4:30pm\nSat: 8:30am to 1:00pm\n\nReference Section\nMon-Fri: 8:30am to 8:30pm\nSat: 8:30am to 5:30pm\n\nSundays and Government holidays the library remains closed.\n\nExamination Timings\nSundays and Government Holidays: 9:30am to 1pm"]
+        },
+        {"tag": "alumini",
+         "patterns": ["alumini"],
+         "responses": ["To know about Alumini Association visit: \"https://bmsit.ac.in/alumni\""]
+        },
+        {"tag": "",
+         "patterns": [""],
+         "responses": [""]
+        }
+
+   ]
+}
